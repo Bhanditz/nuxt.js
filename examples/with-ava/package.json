@@ -4,13 +4,17 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "test": "ava"
+    "test": "ava",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "ava": "^0.16.0",
     "jsdom": "^9.8.3"
   },
   "dependencies": {
-    "nuxt": "^0.9.5"
-  }
+    "nuxt": "^0.9.5",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
