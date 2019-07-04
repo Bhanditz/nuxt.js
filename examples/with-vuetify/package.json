@@ -2,15 +2,19 @@
   "name": "with-vuetify",
   "dependencies": {
     "nuxt": "0.10",
-    "vuetify": "0.9.4"
+    "vuetify": "0.9.4",
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
-  }
+  },
+  "snyk": true
 }
