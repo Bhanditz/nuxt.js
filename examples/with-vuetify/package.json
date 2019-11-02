@@ -2,7 +2,7 @@
   "name": "with-vuetify",
   "dependencies": {
     "nuxt": "0.10",
-    "vuetify": "0.9.4"
+    "vuetify": "2.1.9"
   },
   "scripts": {
     "dev": "nuxt",
