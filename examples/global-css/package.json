@@ -4,7 +4,7 @@
     "bulma": "^0.4.0",
     "hover.css": "^2.2.0",
     "node-sass": "^4.5.1",
-    "nuxt": "^0.10.0",
+    "nuxt": "^1.0.0",
     "sass-loader": "^6.0.3"
   },
   "scripts": {
