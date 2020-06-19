@@ -3,9 +3,13 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "nuxt": "latest"
-  }
+    "nuxt": "latest",
+    "snyk": "^1.345.1"
+  },
+  "snyk": true
 }
