@@ -19,6 +19,6 @@
     "apollo-client": "^1.0.2",
     "graphql-tag": "^2.0.0",
     "isomorphic-fetch": "^2.2.1",
-    "nuxt": "^0.10.5"
+    "nuxt": "^2.0.0"
   }
 }
